@@ -34,7 +34,9 @@ def get_employees_by_dept(department):
     result = []
 
     # Add your implementation from here
-
+    for dept in employee_data:
+        if (dept["department"]==department):
+            result.append(dept)
 
     return result
 
